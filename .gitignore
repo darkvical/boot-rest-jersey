@@ -1,0 +1,37 @@
+es-performance-test/src/test/jmeter/output/
+es-performance-test/src/test/jmeter/dashboard/
+
+
+# Java 
+*.class
+classes
+
+#Gradle
+build
+.gradle
+
+#Intelij
+.idea/
+.idea*
+*.iml
+*.ipr
+
+# General
+log/
+out/
+*.log
+.DS_Store
+
+#ElasticSearch
+data
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
